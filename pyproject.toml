@@ -1,0 +1,11 @@
+[project]
+name = "src"
+version = "0.0.1"
+description = "An End-to-End AI Powered Insurance-Fraud Detection System Project"
+authors = [{name = "Swapnil Singh", email = "drswapnil98@gmail.com"}]
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
